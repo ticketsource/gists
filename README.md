@@ -1,2 +1,3 @@
-# gists
-TicketSource gists/code snippets
+# TicketSource Code Snippets
+
+TicketSource snippets for event organisers
