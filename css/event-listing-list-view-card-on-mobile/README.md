@@ -1,3 +1,5 @@
+[< back](../)
+
 To display events in list view but as a "card" with the image above the title when viewing on a mobile device (< 40em) paste the following into the Custom CSS box 
 under Settings > Ticket Shop in your TicketSource account:
 
