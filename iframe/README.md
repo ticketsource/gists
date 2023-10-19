@@ -117,7 +117,7 @@ Only show events with the `sample` reference:
 
 **Special use case!** 
 
-Becasue we check for `performance_id` first the other parameters provided are ignored, we also allow a shortened version where if the value given for `target` looks like a performance id we treat it as such instead. The following examples are equivalent:
+Because we check for `performance_id` first the other parameters provided are ignored, we also allow a shortened version where if the value given for `target` looks like a `performance_id` we treat it as such instead. The following examples are equivalent:
 
 ### Full
 ```html
