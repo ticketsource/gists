@@ -84,3 +84,7 @@ Only show events with the `SAMPLE` reference:
 ```
 [ticketshop id="E" eventref="SAMPLE"]
 ```
+
+## Direct to booking for a performance
+
+[ticketshop id="E" performance_id="t-gaaxdg"]
