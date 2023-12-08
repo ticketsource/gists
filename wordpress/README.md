@@ -87,4 +87,20 @@ Only show events with the `SAMPLE` reference:
 
 ## Direct to booking for a performance
 
+```
 [ticketshop id="E" performance_id="t-gaaxdg"]
+```
+
+## Combining parameters
+
+You can use the `target` and `eventref` perameters in the same shortcode (using `performance_id` effectively ignores any other optional parameter)
+
+```
+[ticketshop id="E" target="_BLANK" eventref="SAMPLE"]
+```
+
+ordering does not matter, this example is equivalent to the one above:
+
+```
+[ticketshop eventref="SAMPLE" target="_BLANK" id="E"]
+```
