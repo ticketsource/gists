@@ -5,7 +5,7 @@
 the shortcode used to inject our WordPress plugin TicketShop iframe into one of your WordPress pages can be customised to alter the listing/display, the structure is as follows:
 
 ```
-[ticketshop id="E" target="_BLANK" eventref="SAMPLE" performance_id="dat-123abc"]
+[ticketshop id="E" target="_BLANK" eventref="SAMPLE"]
 ```
 
 <table>
@@ -56,10 +56,6 @@ the shortcode used to inject our WordPress plugin TicketShop iframe into one of 
         <td><strong>eventref</strong><br><em>optional</em></td>
         <td>filter performances to only those with a matching event reference</td>
       </tr>
-      <tr>
-        <td><strong>performance_id</strong><br><em>optional</em></td>
-        <td>Specify a performance ID to go direct to booking skipping the listings pages completely, this can take the format of a listing ID (e.g. <code>t-123abc</code>) or API ID (e.g. <code>dat-123abc</code>)</td>
-      </tr>
     </tbody>
 </table>
 
@@ -85,15 +81,9 @@ Only show events with the `SAMPLE` reference:
 [ticketshop id="E" eventref="SAMPLE"]
 ```
 
-## Direct to booking for a performance
-
-```
-[ticketshop id="E" performance_id="t-gaaxdg"]
-```
-
 ## Combining parameters
 
-You can use the `target` and `eventref` perameters in the same shortcode (using `performance_id` effectively ignores any other optional parameter)
+You can use the `target` and `eventref` perameters in the same shortcode
 
 ```
 [ticketshop id="E" target="_BLANK" eventref="SAMPLE"]
