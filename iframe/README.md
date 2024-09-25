@@ -5,7 +5,7 @@
 the iframe URL can be customised to alter the listing/display, the structure is as follows:
 
 ```
-https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}/{performance_id}
+https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}
 ```
 
 <table>
