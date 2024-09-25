@@ -60,10 +60,6 @@ https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}/{
             <td>eventRef</td>
             <td>filter performances to only those with a matching event reference</td>
         </tr>
-        <tr>
-            <td>performance_id</td>
-            <td>Specify a performance ID to go direct to booking skipping the listings pages completely, this can take the format of a listing ID (e.g. <code>t-123abc</code>) or API ID (e.g. <code>dat-123abc</code>)</td>
-        </tr>
     </tbody>
 </table>
 
@@ -114,35 +110,3 @@ Only show events with the `sample` reference:
 ```
 
 *Note:* when specifying a later parameter such as `eventRef` all previous parameters must also be given (e.g. `target` is set to it's default of `_self` in the sample above)
-
-## Direct to booking for a performance
-
-**Special use case!** 
-
-Because we check for `performance_id` first the other parameters provided are ignored, we also allow a shortened version where if the value given for `target` looks like a `performance_id` we treat it as such instead. The following examples are equivalent:
-
-### Full
-```html
-<div id="embedTS_E" style="width:100%;"></div>
-<script type="text/javascript">
-  (function() {
-    var el = document.createElement("script");
-    el.src = "https://www.ticketsource.co.uk/ticketshop/E/_self/anyvaluehere/t-gaaxdg";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(el, s);
-  })();
-</script>
-```
-
- ### Shortened
-```html
-<div id="embedTS_E" style="width:100%;"></div>
-<script type="text/javascript">
-  (function() {
-    var el = document.createElement("script");
-    el.src = "https://www.ticketsource.co.uk/ticketshop/E/t-gaaxdg";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(el, s);
-  })();
-</script>
-```
