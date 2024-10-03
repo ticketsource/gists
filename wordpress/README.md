@@ -5,7 +5,7 @@
 the shortcode used to inject our WordPress plugin TicketShop iframe into one of your WordPress pages can be customised to alter the listing/display, the structure is as follows:
 
 ```
-[ticketshop id="E" target="_BLANK" eventref="SAMPLE"]
+[ticketshop id="{promoter_id}" target="_BLANK" eventref="SAMPLE"]
 ```
 
 <table>
@@ -59,10 +59,13 @@ the shortcode used to inject our WordPress plugin TicketShop iframe into one of 
     </tbody>
 </table>
 
+> [!NOTE]
+> The examples below use a placeholder for your unique account identifier `{promoter_id}`, you can find the correct shortcode within your TicketSource account and modify it from there to suit your needs
+
 ## Default
 
 ```
-[ticketshop id="E"]
+[ticketshop id="{promoter_id}"]
 ```
 
 ## Target
@@ -70,7 +73,7 @@ the shortcode used to inject our WordPress plugin TicketShop iframe into one of 
 Always open in a new tab:
 
 ```
-[ticketshop id="E" target="_BLANK"]
+[ticketshop id="{promoter_id}" target="_BLANK"]
 ```
 
 ## Filter to event
@@ -78,7 +81,7 @@ Always open in a new tab:
 Only show events with the `SAMPLE` reference:
 
 ```
-[ticketshop id="E" eventref="SAMPLE"]
+[ticketshop id="{promoter_id}" eventref="SAMPLE"]
 ```
 
 ## Combining parameters
@@ -86,11 +89,11 @@ Only show events with the `SAMPLE` reference:
 You can use the `target` and `eventref` perameters in the same shortcode
 
 ```
-[ticketshop id="E" target="_BLANK" eventref="SAMPLE"]
+[ticketshop id="{promoter_id}" target="_BLANK" eventref="SAMPLE"]
 ```
 
 ordering does not matter, this example is equivalent to the one above:
 
 ```
-[ticketshop eventref="SAMPLE" target="_BLANK" id="E"]
+[ticketshop eventref="SAMPLE" target="_BLANK" id="{promoter_id}"]
 ```
