@@ -69,7 +69,7 @@ https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}
 ## Default
 
 ```html
-<div id="embedTS_E" style="width:100%;"></div>
+<div id="embedTS_{promoter_id}" style="width:100%;"></div>
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
@@ -85,7 +85,7 @@ https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}
 Always open in a new tab:
 
 ```html
-<div id="embedTS_E" style="width:100%;"></div>
+<div id="embedTS_{promoter_id}" style="width:100%;"></div>
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
@@ -101,7 +101,7 @@ Always open in a new tab:
 Only show events with the `sample` reference:
 
 ```html
-<div id="embedTS_E" style="width:100%;"></div>
+<div id="embedTS_{promoter_id}" style="width:100%;"></div>
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
