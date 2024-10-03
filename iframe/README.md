@@ -63,6 +63,9 @@ https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}
     </tbody>
 </table>
 
+> [!NOTE]
+> The examples below use a placeholder for your unique account identifier `{promoter_id}`, you can find the correct code within your TicketSource account and modify it from there to suit your needs
+
 ## Default
 
 ```html
@@ -70,7 +73,7 @@ https://www.ticketsource.{domain}/ticketshop/{promoter_id}/{target}/{eventRef}
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
-    el.src = "https://www.ticketsource.co.uk/ticketshop/E";
+    el.src = "https://www.ticketsource.co.uk/ticketshop/{promoter_id}";
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(el, s);
   })();
@@ -86,7 +89,7 @@ Always open in a new tab:
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
-    el.src = "https://www.ticketsource.co.uk/ticketshop/E/_blank";
+    el.src = "https://www.ticketsource.co.uk/ticketshop/{promoter_id}/_blank";
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(el, s);
   })();
@@ -102,11 +105,12 @@ Only show events with the `sample` reference:
 <script type="text/javascript">
   (function() {
     var el = document.createElement("script");
-    el.src = "https://www.ticketsource.co.uk/ticketshop/E/_self/sample";
+    el.src = "https://www.ticketsource.co.uk/ticketshop/{promoter_id}/_self/sample";
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(el, s);
   })();
 </script>
 ```
 
-*Note:* when specifying a later parameter such as `eventRef` all previous parameters must also be given (e.g. `target` is set to it's default of `_self` in the sample above)
+> [!NOTE]
+> When specifying a later parameter such as `eventRef` all previous parameters must also be given (e.g. `target` is set to it's default of `_self` in the sample above)
