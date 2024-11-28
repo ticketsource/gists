@@ -4,6 +4,7 @@
 
 Custom css snippets you can use in your TicketSource account under Settings > Ticket Shop > Custom CSS
 
+* [Change listing page button colours](change-button-colour/)
 * [Change listing page title font](change-event-title-font/)
 * [Responsive card view on mobile devices](event-listing-list-view-card-on-mobile/)
 * [Hide company name on listings page](hide-company-name/)
