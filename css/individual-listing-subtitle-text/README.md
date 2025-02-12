@@ -3,12 +3,14 @@
 To add custom text to a specific performance on your listings pages (e.g. to mark a BSL/British Sign Language performance) add the following to the Custom CSS box under Settings > Ticket Shop in your TicketSource account:
 
 ```css
-.eventRow[data-id="1234567"] .eventTitle a span {
+.eventRow[data-id="1234567"] .eventTitle span,
+.eventRow[data-id="1234567"] .event-title span {
   display: flex;
   flex-direction: column;
 }
 
-.eventRow[data-id="1234567"] .eventTitle a span:after,
+.eventRow[data-id="1234567"] .eventTitle span:after,
+.eventRow[data-id="1234567"] .event-title span:after,
 body[data-pid="1234567"] .heading .eventTitle h1:after {
   content: "(BSL Signed Performance)";
   color: #757575;
