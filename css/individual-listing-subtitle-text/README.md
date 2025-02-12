@@ -9,13 +9,13 @@ To add custom text to a specific performance on your listings pages (e.g. to mar
 }
 
 .eventRow[data-id="1234567"] .eventTitle a span:after,
-body[data-performanceid="1234567"] .heading .eventTitle h1:after {
+body[data-pid="1234567"] .heading .eventTitle h1:after {
   content: "(BSL Signed Performance)";
   color: #757575;
 }
 ```
 
-You can find the performance identifier `1234567` using your browsers dev tools on a performance listings page (one that ends in `t-xxxxx`), inspecting the `body` tag and extracting the value of the `data-performanceid` attribute:
+You can find the performance identifier `1234567` using your browsers dev tools on a performance listings page (one that ends in `t-xxxxx`), inspecting the `body` tag and extracting the value of the `data-pid` attribute:
 
 ![image](https://github.com/ticketsource/gists/assets/619726/d206b6be-b395-4d57-bb2b-1afb8b0abb74)
 
