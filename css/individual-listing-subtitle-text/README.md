@@ -19,6 +19,7 @@ body[data-pid="1234567"] .heading .eventTitle h1:after {
 
 You can find the performance identifier `1234567` using your browsers dev tools on a performance listings page (one that ends in `t-xxxxx`), inspecting the `body` tag and extracting the value of the `data-pid` attribute:
 
-![image](https://github.com/ticketsource/gists/assets/619726/d206b6be-b395-4d57-bb2b-1afb8b0abb74)
+![image](https://github.com/user-attachments/assets/ee2587df-677a-4b67-a01c-53efd48fac21)
 
-![image](https://github.com/ticketsource/gists/assets/619726/160e1ac5-49af-4509-b4a2-0f7b7098a1df)
+![image](https://github.com/user-attachments/assets/a589496a-fef3-479f-950f-c47b7ec97b93)
+
