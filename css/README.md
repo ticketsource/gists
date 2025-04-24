@@ -1,8 +1,8 @@
 [< back](../)
 
-## TicketShop custom CSS
+## Ticket Shop custom CSS
 
-Custom css snippets you can use in your TicketSource account under Settings > Ticket Shop > Custom CSS
+Ticket Shop custom CSS snippets you can apply in your TicketSource dashboard under Settings > Ticket Shop > Custom CSS
 
 * [Change listing page button colours](change-button-colour/)
 * [Change listing page title font](change-event-title-font/)
